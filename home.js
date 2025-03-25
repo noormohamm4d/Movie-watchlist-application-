@@ -109,7 +109,7 @@ function displayWatchlist() {
                 <img src="${poster}" class="card-img-top" alt="${movie.title}">
                 <div class="card-body text-center">
                     <h5 class="card-title">${movie.title}</h5>
-                    <button class="btn btn-danger remove-btn" data-id="${movie.id}">🗑 Remove</button>
+                    <button class="btn btn-danger remove-btn" data-id="${movie.id}">Remove</button>
                 </div>
             </div>
         `;
